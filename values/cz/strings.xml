@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">Ulož.to</string>
+    <string name="login_error">Nastala chyba při přihlašování, zkontroluje zadané údaje.</string>
+    <string name="login_loading">Probíhá přihlašování...</string>
+    <string name="account_descriptor" translatable="false">cz.ulozto.android.account</string>
+    <string name="stop">Zastavit</string>
+    <string name="pause">Pozastavit</string>
+    <string name="continueu">Pokračovat</string>
+    <string name="drawer_open">Otevřít</string>
+    <string name="drawer_close">Zavřít</string>
+    <string name="not_logged">Nepřihlášen</string>
+    <string name="title_activity_files_list">Hledané soubory</string>
+    <string name="title_activity_file_detail">Detail souboru</string>
+    <string name="title_activity_settings">Nastavení</string>
+
+    <string name="title_activity_fullscreen_image_slider">Fullscreen gallery</string>
+    <string name="search">Hledat</string>
+    <string name="not_found">Nic nebylo nalezeno...</string>
+    <string name="open">Otevřít</string>
+    <string name="alerbox_notice">Upozornění</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="available_credit">"Dostupný kredit: "</string>
+    <string name="file_not_found">Soubor nebyl nalezen</string>
+    <string name="insufficient_space_msg">Na disku není dostatek místa pro stažení souboru. Uvolněte místo a zkuste soubor stáhnout znova.</string>
+    <string name="download_failed_msg">Stahování selhalo. Soubor je soukromý nebo nebyl nalezen.</string>
+    <string name="download_error_generic">Nastala chyba při stahování souboru. Zkuste to prosím později.</string>
+    <string name="invalid_local_path">Stahování selhalo. Nedostatek práv pro uložení souboru. Vyberte jinou složku v /mnt/sdcard/Android/data/</string>
+    <string name="version">"Verze aplikace: "</string>
+    <string name="prepare">Příprava</string>
+    <string name="connection_problems">Nastala chyba při připojení k serveru. Zkontrolujte připojení k internetu a zkuste to znovu.</string>
+    <string name="failed_connect_to_server">Nepodařilo se připojit k serveru. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="fatal_error_toast">Ouha! Něco se pokazilo. Chybu jsme zachytili a bude opravena v nejbližší době.</string>
+
+    <string name="share_link">Našel jsem na Ulož.to zajímavý soubor. Ke stažení zde... %s</string>
+    <string name="settings_logout"><u>Odhlásit uživatele</u></string>
+    <string name="settings_app_version"><u>Verze aplikace: 1.0.0.1</u></string>
+    <string name="settings_privacy"><u>Zásady uživatelského obsahu</u></string>
+    <string name="settings_tos_privacy"><u>Ochrana soukromí</u></string>
+    <string name="settings_tos_abuse"><u>Pravidla oznámení</u></string>
+    <string name="settings_tos"><u>Podmínky služby</u></string>
+    <string name="login_register"><u>Nemám účet</u></string>
+    <string name="login_forgot_pwd"><u>Zapomněl jsem heslo</u></string>
+    <string name="contact_support"><u>Kontaktovat Ulož.to podporu</u></string>
+    <string name="insufficient_credit">Pro rychlé stažení souboru nemáte dostatek kreditu. Dobít si jej můžete na uloz.to/kredit nebo využijte pomalé stažení.</string>
+    <string name="application_not_found">Nebyla nalezena aplikace pro otevření. Co chcete udělat?</string>
+    <string name="search_app">Hledat aplikaci</string>
+    <string name="select_app">Vybrat aplikaci</string>
+    <string name="downloading_update">Stahování aktualizace...</string>
+    <string name="new_version_available">Byla nalezena novější verze aplikace (%s). Přejete si ji nainstalovat?</string>
+    <string name="patch_error_unknown">Stahování aktualizace selhalo. Chcete se pokusit stáhnout aktualizaci znovu?</string>
+    <string name="doyouknow">Víte, že:</string>
+    <string name="download_from_web">Stáhnout z webu</string>
+    <string name="buy_credits">Dobít kredit SMS</string>
+    <string name="change_country">Změnit zemi</string>
+    <string name="country_czech_republic">Česká republika</string>
+    <string name="country_slovakia">Slovensko</string>
+    <string name="country_poland">Polsko</string>
+    <string name="country_other">Ostatní</string>
+
+    <!-- toto musi byt 3x, nemam pristup k jine lokalizaci pokud uzivatel nezmeni jazyk systemu -->
+    <string name="buy_credits_footer_cz" translatable="false">
+    <![CDATA[
+    Cena SMS je od 30-499 Kč, 2-20 € nebo 1,220-30,500 ZL včetně DPH.<br/>
+    Platby SMS v Kč a € (MT billing): Cena první, objednací SMS, je dle tarifu zákazníka. Cena druhé, potvrzovací SMS, je 30-499 Kč nebo 2-20 € vč. DPH.<br/>
+    Platby SMS v ZL (MO billing): Cena objednávací SMS se pohybuje od 1,220 do 30,500 ZL z VAT.<br/>
+    U SMS platby v Kč a € může docházet k prodlevě mezi vaším potvrzením a přičtením kreditu. Jedná se o zpoždění ze strany operátora, prosíme o trpělivost. Děkujeme.<br/>
+    Technicky zajišťuje Airtoy a. s., Infolinka 602 777 555, <a href="http://www.platmobilem.cz">www.platmobilem.cz</a> a ComGate, a.s., Infolinka 495 855 474, <a href="http://www.comgate.cz">www.comgate.cz</a>.
+    ]]>
+    </string>
+    <string name="buy_credits_footer_sk" translatable="false">
+    <![CDATA[
+    Cena SMS je od 30-499 Kč, 2-20 € alebo 1,220-30,500 ZL vrátane DPH.<br/>
+    Platby SMS v Kč a € (MT billing): Cena prvé, objednávacie SMS, je podľa tarifu zákazníka. Cena druhé, potvrdzovacie SMS, je 30-499 Kč alebo 2-20 € vr. DPH.<br/>
+    Platby SMS v ZL (MO billing): Cena objednávacej SMS sa pohybuje od 1,220 do 30,500 ZL z VAT. U SMS platby v Kč a € môže dochádzať k oneskoreniu medzi vaším potvrdením a pripočítaním kreditu. Jedná sa o oneskorenie zo strany operátora, prosíme o trpezlivosť. Ďakujeme.<br/>
+    Technicky zaisťuje Airtoy as, Infolinka 602 777 555, <a href="http://www.platmobilem.cz">www.platmobilem.cz</a> a ComGate, a.s., Infolinka 495 855 474, <a href="http://www.comgate.cz">www.comgate.cz</a><br/>
+    ]]>
+    </string>
+    <string name="buy_credits_footer_pl" translatable="false">
+    <![CDATA[
+    Cena SMS-a to 30-499 Kč, 2-20 € lub 1,220-30,500 zł z VAT-em.<br/>
+    Płatności SMS-em w Kč i € (MT billing): Cena pierwszego SMS-a jest naliczana według taryfy klienta. Cena drugiego SMS-a z potwierdzeniem wynosi 30-499 Kč lub 2-20 € z VAT-em.<br/>
+    Płatności SMS-em v zł (MO billing): Cena SMS-a z zamówieniem wynosi od 1,220 zł do 30,500 zł z VAT-em.<br/>
+    W przypadku płatności SMS-em w Kč i € może dojść do opóżnienia pomiędzy Twoim potwierdzeniem a przypisaniem kredytu. Spóżnienie jest po stronie operatora, prosimy o cierpliwość. Dziękujemy.<br/>
+    Pomoc techniczna: Airtoy SA, Infolinia: 602 777 555, <a href="http://www.platmobilem.cz">www.platmobilem.cz</a> a ComGate, a.s., Infolinia: 495 855 474, <a href="http://www.comgate.cz">www.comgate.cz</a><br/>
+    ]]>
+    </string>
+    <string name="contact_form"><u>Kontaktní formulář</u></string>
+
+    <string name="category_all">Vše</string>
+    <string name="category_video">Video</string>
+    <string name="category_images">Obrázky</string>
+    <string name="category_archive">Archivy</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_document">Dokumenty a četba</string>
+
+    <string name="order_weight">Relevance</string>
+    <string name="order_created">Od nejnovějšího</string>
+    <string name="order_created_minus">Od nejstaršího</string>
+
+    <string name="order_ratings">Hodnocení</string>
+    <string name="order_big_size">Od největšího</string>
+    <string name="order_small_size">Od nejmenšího</string>
+
+    <string name="order_name">Abecedně (A-Z)</string>
+    <string name="order_name_minus">Abecedně (Z-A)</string>
+
+    <string name="order_extension">Dle přípony (A-Z)</string>
+    <string name="order_extension_minus">Dle přípony (Z-A)</string>
+
+    <string name="downloaded_files">Stažené soubory</string>
+    <string name="search_files">Vyhledat soubory...</string>
+    <string name="locked_file">Zamčený soubor</string>
+    <string name="error_while_sign_in">Nastala chyba při přihlašování</string>
+    <string name="charge_credit">Dobít kredit</string>
+    <string name="password_protected_archive">zaheslovaný</string>
+    <string name="password_protected_file">Zamčený</string>
+    <string name="not_available_in_this_country">Pro tuto zemi není platba dostupná</string>
+    <string name="user_name">Jméno</string>
+    <string name="user_password">Heslo</string>
+    <string name="main_menu_h1">Ulož.to vám nabízí</string>
+    <string name="sign_in">Přihlásit se</string>
+    <string name="main_menu_h2">neomezený prostor a pohodlí pro nahrávání, sdílení a prohlížení vašich dokumentů, prezentací, fotografií, obrázků a videí.</string>
+    <string name="user_id">ID Uživatele</string>
+    <string name="credits_pricing">Ceník kreditu</string>
+    <string name="settings">Nastavení</string>
+    <string name="files">Soubory</string>
+    <string name="check_for_updates">Zkontrolovat aktualizace</string>
+    <string name="always_ask_where_to_save_files">Vždy se dotazovat, kam ukládat soubory</string>
+    <string name="dowload_and_upload_only_wifi">Soubory stahovat a uploadovat pouze přes WIFI</string>
+    <string name="share">Sdílejte</string>
+    <string name="support">Podpora</string>
+    <string name="about_app">O aplikaci</string>
+    <string name="update_not_needed">Aplikace je aktuální.</string>
+    <string name="missing_entry_point">"\nChybí entryPoint: "</string>
+    <string name="downloads_only_via_wifi">Stahování povoleno pouze přes Wifi. V Nastavení můžete tuto volbu vypnout.</string>
+    <string name="update_install_fatal_error">Nastala fatální chyba při instalaci aktualizace aplikace.\n\nPro manuální instalaci spusťte APK v Download/</string>
+    <string name="update_fatal_error_download">Nastala chyba při aktualizaci aplikace. Zkuste to znovu později. Kód chyby:</string>
+    <string name="sms_ability_not_found" formatted="false">Vaše zařízení nepodporuje odesílání SMS.\n\nPošlete SMS z jiného mobilního telefonu ve tvaru:\n\n%s\n\nna číslo %s</string>
+    <string name="loading_webpage">Načítání... %d%%</string>
+    <string name="what_to_do">Jakou akci provést?</string>
+    <string name="share_title">Ulož.to soubory</string>
+    <string name="are_you_sure_delete">Opravdu chcete smazat následující soubory?</string>
+    <string name="are_you_sure_delete_file">Opravdu chcete smazat následující soubor?</string>
+    <string name="are_you_sure_download">Opravdu chcete znovu stáhnout následující soubory?</string>
+    <string name="paused">Pozastaveno</string>
+    <string name="removed">Odstraněno</string>
+    <string name="stopped">Zastaveno</string>
+    <string name="failed">Selhalo</string>
+    <string name="downloading_file">Stahování souboru</string>
+    <string name="and_more_files">" další"</string>
+    <string name="space_and_space">" a "</string>
+    <string name="internal_storage">Interní uložiště</string>
+    <string name="sdcard_storage">SD karta</string>
+    <string name="available_from_total_size" formatted="false">volné %s z %s</string>
+    <string name="choose_storage">Vybrat uložiště</string>
+    <string name="selected_folder">Vybraná složka</string>
+    <string name="storage">Uložiště</string>
+    <string name="language">Jazyk</string>
+    <string name="my_files">Moje soubory</string>
+    <string name="private_folder">Soukromá složka</string>
+    <string name="public_folder">Veřejná složka</string>
+    <string name="create_folder">Vytvořit složku</string>
+
+    <string name="private_file">Jen pro mě</string>
+    <string name="public_file">Pro veřejnost</string>
+
+    <string name="search_my_files">Hledat moje soubory...</string>
+    <string name="folder_name">Jméno složky</string>
+    <string name="folder_already_exists">Nepodařilo se vytvořit složku, složka již existuje.</string>
+    <string name="folder_creation_an_error_occured">"Nastala chyba při vytváření složky:\nerrorCode "</string>
+    <string name="unable_to_browse_to_url">Požadovanou akci nebylo možné dokončit.</string>
+
+    <string name="upload_files">Nahrát soubory</string>
+    <string name="upload_files_more_info">Podrobnosti a nastavení</string>
+    <string name="uploading_file">Nahrávání souboru</string>
+    <string name="upload_init_failed">Inicializace uploadu selhala. Zkuste to prosím později.</string>
+    <string name="choose_folder">Vyberte složku</string>
+    <string name="choose_files">Vybrat soubory</string>
+    <string name="save">Uložit</string>
+    <string name="chooose_selected_folder">VYBRAT SLOŽKU</string>
+    <string name="upload_filename">Jméno souboru</string>
+    <string name="upload_file_password">Heslo</string>
+    <string name="upload_is_password_protected">Chráněn heslem</string>
+    <string name="file_description">Popis</string>
+
+    <string name="new_folder">Nová složka</string>
+    <string name="failed_to_create_folder">Nepodařilo se vytvořit složku</string>
+    <string name="name">Jméno</string>
+    <string name="select_something_first">Prosím vyberte soubor, který chcete nahrát</string>
+    <string name="file_chooser_invalid_path">Nedostatek práv pro uložení souborů. Vyberte jinou složku.</string>
+    <string name="select_folder">Vyberte složku pro ukládání</string>
+    <string name="failed_to_select_path">Nepodařilo se vybrat cestu. Chcete resetovat cestu do složky Downloads?</string>
+    <string name="file_chooser_title">Vybrat soubor nebo složku</string>
+    <string name="upload_detail_saving_files">Probíhá ukládání souborů</string>
+    <string name="upload_detail_files_was_saved">Soubory byly uloženy...</string>
+    <string name="upload_detail_failed_to_save_files">Následující soubory se nepodařilo uložit, přejete si ignorovat chyby?</string>
+    <string name="permissions_not_granted">Je nutné povolit všechny práva, aby aplikace fungovala správně.</string>
+    <string name="file_chooser_read_write_permission_not_granted">Bez povolení přístupu k uložišti nemůžete procházet soubory. Povolte přístup a vyzkoušejte to znovu.</string>
+    <string name="settings_change_language">Opravdu si přejete změnit jazyk? Aplikace bude restartována.</string>
+    <string name="login_hint">Přihlaste se vašimi údaji, které používáte na webu Ulož.to. Pokud ještě nemáte profil na Ulož.to vytvořen, snadno si ho vytvoříte přechodem na registraci.</string>
+    <string name="upload_share_message_prefix">Zdravím, posílám nahrané soubory:\n</string>
+    <string name="my_files_moving_file">Přesouvání souboru</string>
+    <string name="my_files_failed_to_move_files">Selhal přesun následujících souborů:\n</string>
+    <string name="my_files_files_moved">Soubory byly přesunuty...</string>
+    <string name="my_files_deleting_files">Mazání souborů</string>
+    <string name="my_files_really_delete_files">Opravdu chcete smazat následující soubory?\n</string>
+    <string name="my_files_failed_to_delete_files">Selhalo smazání u následujících souborů:\n</string>
+    <string name="my_files_files_deleted">Soubory byly smazány...</string>
+    <string name="file_name">Jméno souboru</string>
+    <string name="rename_file">Přejmenovat soubor</string>
+    <string name="my_files_change_description">Změnit popis</string>
+    <string name="my_files_failed_to_update_file">Nastala chyba při aktualizaci vlastností souboru.</string>
+    <string name="working">Zpracovávání</string>
+    <string name="change_file_password">Změnit heslo</string>
+    <string name="password">Heslo</string>
+    <string name="move_files">Přesunout soubor(y)</string>
+    <string name="remove_file">Odstranit soubor(y)</string>
+    <string name="select_option">Vyberte možnost</string>
+    <string name="menu_news">Novinky</string>
+    <string name="my_files_long_click_hint">Pro provedení akce se souborem tapněte na tlačítko Menu.</string>
+    <string name="file_downloaded">Stahování dokončeno</string>
+    <string name="notifications">Oznámení</string>
+    <string name="notification_on_file_downloaded">Oznámení po stažení souboru</string>
+    <string name="notification_sound_on_file_downloaded">Zvuk při stažení souboru</string>
+    <string name="close">Zavřít</string>
+    <string name="expand_selection">Rozšířit nabídku</string>
+    <string name="back">Zpět</string>
+    <string name="forward">Dopředu</string>
+    <string name="reload">Načíst znovu</string>
+    <string name="delete">Smazat</string>
+    <string name="download_again">Stáhnout znovu</string>
+    <string name="resume">Pokračovat</string>
+    <string name="home">Domů</string>
+    <string name="menu">Menu</string>
+    <string name="prev_screen">Předchozí náhled</string>
+    <string name="next_screen">Další náhled</string>
+    <string name="default_notification_sound">Tón oznámení</string>
+    <string name="open_folder_with_downloaded_Files">Otevřít složku se staženými soubory</string>
+    <string name="network_unreachable">Připojení k síti není k dispozici.</string>
+    <string name="try_again">Opakovat</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="resolution">Rozlišení</string>
+    <string name="aspect_ratio">Poměr stran pixelů</string>
+    <string name="codec">Kodek</string>
+    <string name="frames_per_second">Počet snímků za vteřinu</string>
+    <string name="bitrate" translatable="false">Bitrate</string>
+    <string name="format">Formát</string>
+    <string name="audio_channels">Audio kanály</string>
+    <string name="account_settings">Nastavení účtů</string>
+    <string name="add_account">Přidat účet</string>
+    <string name="subtitles">Titulky</string>
+    <string name="languages">Jazyky</string>
+    <string name="notification_on_connection_lost">Oznámení při ztrátě připojení k síti</string>
+    <string name="preferred_storages">Oblíbené složky</string>
+    <string name="filename">Název souboru</string>
+    <string name="size">Velikost</string>
+    <string name="link_only_file">Přes odkaz</string>
+    <string name="switch_of_account_will_pause_all_downloads">Změna účtu zastaví probíhající stahování. Chcete pokračovat?</string>
+    <string name="switch_to_online_mode">Přepnout do online módu</string>
+    <string name="checking_network_reachability">Kontrola dostupnosti sítě...</string>
+    <string name="duration">Délka videa</string>
+    <string name="verify_user_by_captcha">Proveďte ověření uživatele</string>
+    <string name="captcha_validation_error">Chyba při ověření uživatele, zkuste to znovu</string>
+    <string name="validate">Ověřit</string>
+    <string name="password_invalid">Heslo není platné</string>
+    <string name="put_password">Zadejte heslo</string>
+    <string name="reload_captcha">Jiný obrázek</string>
+    <string name="play_captcha_sound">Přehrát kód</string>
+    <string name="download_fast">Stáhnout rychle</string>
+    <string name="download_slow">Stáhnout pomalu</string>
+    <string name="change_visibility">Změnit dostupnost souboru</string>
+    <string name="slow_downloads_exceeded">Pomalé stahování nebylo povoleno. Prosím zkuste to později.</string>
+    <string name="remaining_slow_download_time">Pomalé stahování dostupné za %s</string>
+    <string name="slow_download_button_remaining_time">Pomalé stahování bude dostupné za %s</string>
+    <string name="notification_on_slow_downloads_exceeded">Oznámení o odpočtu času při Pomalém stahování </string>
+    <string name="logout">Odhlásit se</string>
+    <string name="bad_time_in_device_slow_downloads_might_not_work">Čas ve vašem zařízení je posunutý o %s, Pomalé stahování nemusí fungovat správně.</string>
+    <string name="input_captcha_text">Opište text z obrázku</string>
+    <string name="report_file">Nahlásit soubor</string>
+    <string name="no_thanks">Ne, děkuji</string>
+    <string name="allow_permissions">Povolit</string>
+    <string name="check_credit"><u>Zkontrolovat kredit</u></string>
+    <string name="only_partial_match_found">Nebyla nalezena přesná shoda, zobrazujeme podobné výrazy.</string>
+    <string name="marked_as_favorite">Přidáno do oblíbených</string>
+    <string name="comments">Komentáře</string>
+    <string name="date_30sec_ago">před 30 sekundami</string>
+    <string name="date_1min_ago">před minutou</string>
+    <string name="date_minutes_ago">před %d minutami</string>
+    <string name="date_1hour_ago">před hodinou</string>
+    <string name="date_hours_ago">před %d hodinami</string>
+    <string name="date_1day_ago">včera</string>
+    <string name="date_days_ago">před %d dny</string>
+    <string name="date_1week_ago">minulý týden</string>
+    <string name="date_weeks_ago">před %d týdny</string>
+    <string name="date_1month_ago">minulý měsíc</string>
+    <string name="date_months_ago">před %d měsíci</string>
+    <string name="date_1year_ago">minulý rok</string>
+    <string name="date_years_ago">před %d lety</string>
+    <string name="file_params">Parametry souboru</string>
+    <string name="switch_to_production" translatable="false">Přepnout na produkci</string>
+    <string name="low_storage">V úložišti je pouze %d%% volného místa, opravdu chcete pokračovat ve stažení?</string>
+    <string name="file_is_too_large">Vaše zařízení neumožňuje uložení takto velkého souboru. Soubor může být nekompletní po stažení, opravdu pokračovat?</string>
+    <string name="android_5_0_sdcard_protected">Na Androidu 5.0 a vyšším je externí uložiště chráněno proti zápisu. V následujícím dialogovém okně můžete zvolit cílovou složku a povolit tak aplikaci Ulož.to zápis.</string>
+    <string name="complete">Dokončeno</string>
+    <string name="error">Chyba</string>
+    <string name="pending">Čeká se</string>
+    <string name="file">Soubor</string>
+    <string name="save_files">Uložit soubory</string>
+    <string name="retry">Znovu</string>
+    <string name="uploaded">Nahráno</string>
+    <string name="upload_save_failed">Nahrané soubory se nepodařilo uložit.</string>
+    <string name="root_folder">Kořenová složka</string>
+    <string name="account">Účet</string>
+    <string name="adult_content">Obsah pro dospělé</string>
+    <string name="upload_are_you_sure_quit_upload">Opravdu chcete ukončit nahrávání souborů? Soubory nebudou uloženy.</string>
+    <string name="open_folder">Otevřít složku</string>
+    <string name="missing_storage">Nepodařilo se ověřit cestu pro uložení souboru. Ověřte, zda SD karta nebyla z telefonu odstraněna.\nZkusit soubor stáhnout?</string>
+    <string name="link_expired">Odkaz na stahovaný soubor vypršel. Stáhněte soubor prosím znovu.</string>
+    <string name="favorite">Oblíbené</string>
+    <string name="custom_folder">Vlastní složka</string>
+    <string name="current_version">Aktuální verze</string>
+    <string name="update_version">Verze aktualizace</string>
+    <string name="default_notification_channel_id" translatable="false">Ulozto_notification_channel_default</string>
+    <string name="sponsored_content">Reklamní sdělení</string>
+
+    <string name="google_app_id" translatable="false">1:862653272823:android:50470a9aa936c7c1</string>
+</resources>
